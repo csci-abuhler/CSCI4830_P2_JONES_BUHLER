@@ -5,17 +5,21 @@ using UnityEngine.Experimental.UIElements;
 
 public class FlashlightOptions : MonoBehaviour
 {
+	public GameObject flashlight;
+
     // Start is called before the first frame update
     void Start()
     {
         
     }
-
+	
     // Update is called once per frame
     void Update()
     {
-		GameObject light = GameObject.Find("Flashlight");
-		//Debug.Log(light.GetComponent("WhiteLight"));
-
+		//Debug.Log(OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger));
+		if (OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger) != 0)
+		{
+			Debug.Log(flashlight.transform.position);
+		} 
     }
 }

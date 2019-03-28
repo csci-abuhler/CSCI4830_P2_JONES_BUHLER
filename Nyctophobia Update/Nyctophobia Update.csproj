@@ -279,6 +279,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BoardManager.cs" />
+    <Compile Include="Assets\FlashlightOptions.cs" />
+    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -542,6 +545,10 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Scripts\LocomotionSampleSupport.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Scripts\OVROverlaySample.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\StartScene\Scripts\StartMenu.cs" />
+    <Compile Include="Assets\Oculus\SampleFramework\Usage\Stereo180Video\Plugins\Android\NativeVideoPlayer.cs" />
+    <Compile Include="Assets\Oculus\SampleFramework\Usage\Stereo180Video\Scripts\MoviePlayerSample.cs" />
+    <Compile Include="Assets\Oculus\SampleFramework\Usage\Stereo180Video\Scripts\OVROverlayMeshGenerator.cs" />
+    <Compile Include="Assets\Oculus\SampleFramework\Usage\Stereo180Video\Scripts\VectorUtil.cs" />
     <Compile Include="Assets\Oculus\Spatializer\Scenes\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Oculus\Spatializer\Scripts\helpers\ONSPReflectionZone.cs" />
     <Compile Include="Assets\Oculus\Spatializer\Scripts\OculusSpatializerUnity.cs" />
@@ -592,6 +599,7 @@
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
+    <None Include="Assets\Oculus\SampleFramework\Usage\Stereo180Video\Resources\Multiview Stereo.shader" />
     <None Include="Assets\Oculus\SampleFramework\license.txt" />
     <None Include="Assets\Oculus\VR\Editor\AndroidManifest.OVRSubmission.xml" />
     <None Include="Assets\Oculus\VR\LICENSE.txt" />

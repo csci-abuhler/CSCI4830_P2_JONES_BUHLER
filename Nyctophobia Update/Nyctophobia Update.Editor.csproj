@@ -437,6 +437,7 @@
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
+    <None Include="Assets\Oculus\SampleFramework\Usage\Stereo180Video\Resources\Multiview Stereo.shader" />
     <None Include="Assets\Oculus\SampleFramework\license.txt" />
     <None Include="Assets\Oculus\VR\Editor\AndroidManifest.OVRSubmission.xml" />
     <None Include="Assets\Oculus\VR\LICENSE.txt" />
