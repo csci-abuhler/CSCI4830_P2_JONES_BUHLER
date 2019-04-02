@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-	public float levelStartDelay = 2f;
+
+    private int mylevel;
+	/*public float levelStartDelay = 2f;
 
 
 	private float timeToComplete = 1f;
@@ -15,12 +17,6 @@ public class GameManager : MonoBehaviour
 	private int level = 0;
 	private bool doingSetup;
 
-
-	private void Awake()
-	{
-		
-	}
-	
 	void OnLevelWasLoaded(int index)
 	{
 		level++;
@@ -97,20 +93,56 @@ public class GameManager : MonoBehaviour
 		enabled = false;
 	}
 
-
-
-	// Start is called before the first frame update
-	void Start()
+    */
+    void GameOver()
     {
-		InitGame();
+        return;
+        //this is where we'd display survey I guess
+   
+    }
+
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.name == "Exit")
+        {
+            if(mylevel == 0)
+            {
+                mylevel++;
+                SceneManager.LoadScene("Level1");
+            }
+            else if(mylevel == 1)
+            {
+                mylevel++;
+                SceneManager.LoadScene("Level2");
+            }
+            else
+            {
+                GameOver();
+            }
+        }
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        //InitGame();
+
+
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-		if (doingSetup)
+
+
+
+
+		/*if (doingSetup)
 		{
 			return;
-		}
+		}*/
     }
 }
