@@ -61,7 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BoardManager.cs" />
-    <Compile Include="Assets\FlashlightOptions.cs" />
+    <Compile Include="Assets\ChangeFromLevel1.cs" />
+    <Compile Include="Assets\ChangeFromLevel2.cs" />
+    <Compile Include="Assets\ChangeFromLevel3.cs" />
+    <Compile Include="Assets\ChangeLevel.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />

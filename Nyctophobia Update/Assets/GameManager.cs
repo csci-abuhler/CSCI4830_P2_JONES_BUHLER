@@ -104,8 +104,11 @@ public class GameManager : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+
+        Debug.Log("1");
         if (collision.gameObject.name == "Exit")
         {
+            Debug.Log("Testing if wall collision is happening");
             if(mylevel == 0)
             {
                 mylevel++;
