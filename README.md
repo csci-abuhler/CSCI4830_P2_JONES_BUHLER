@@ -4,6 +4,11 @@ This is our Project 2 for CSCI 4830 - Virtual Reality
 
 Video: https://www.youtube.com/watch?v=fxu9WzAAkEI&feature=youtu.be
 
+Controls:
+Primary Thumbstick:    Strafe movement
+Secondary Thumbstick:  Turn
+HAnd triggers:         Pick up items
+
 Developers:
   - Olivia Jones
   - Andrew Buhler 
